@@ -9,8 +9,7 @@ let styles;
 type props = {};
 
 export class <%= componentName %><props> extends React.Component {
-    static defaultProps: props = {
-‎    };
+    static defaultProps: props = {};
 
     state = {};
 
