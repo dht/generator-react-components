@@ -1,0 +1,9 @@
+{
+    "generator-node": {
+        "promptValues": {
+            "authorName": "Guy",
+            "authorEmail": "guy@ubeya.com",
+            "authorUrl": ""
+        }
+    }
+}
