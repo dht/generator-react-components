@@ -11,6 +11,7 @@ const defaultProps = {
 export const <%= componentName %> = (props:props) => {
         return (
             <div className="<%= componentName %>-container">
+                <%= componentName %>
             </div>
         );
 }

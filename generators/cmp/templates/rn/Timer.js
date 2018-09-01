@@ -16,7 +16,7 @@ export const <%= componentName %> = (props:props, context) => {
 
         return (
             <View style={styles.container}>
-                <Text style={styles.text}>AspectImage</Text>
+                <Text style={styles.text}> <%= componentName %></Text>
             </View>
         );
     }

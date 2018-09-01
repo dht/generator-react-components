@@ -14,6 +14,7 @@ export class <%= componentName %><props> extends Component {
     render() {
         return (
             <div className="<%= componentName %>-container">
+                 <%= componentName %>
             </div>
         );
     }

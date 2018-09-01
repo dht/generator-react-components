@@ -40,7 +40,7 @@ module.exports = class extends Generator {
             },
             {
                 type: "confirm",
-                name: "isMini",
+                name: "isBasic",
                 message: "Would you like a basic story?",
                 default: true
             }
@@ -65,7 +65,7 @@ module.exports = class extends Generator {
             { componentName: componentName }
         );
 
-        fileName = isMini ? "_storyMini.js" : "_story.js";
+        fileName = isBasic ? "_story.js" : "_storyMini.js";
 
         this.fs.copyTpl(
             this.templatePath(fileName),
