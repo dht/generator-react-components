@@ -1,6 +1,6 @@
 import React from "react";
 
-import { <%= componentName %> } from "./AspectImage";
+import { <%= componentName %> } from "./<%= componentName %>";
 
 let data = {};
 
