@@ -52,7 +52,7 @@ module.exports = class extends Generator {
     }
 
     writing() {
-        const { name, isClass, isMini, isRN } = this.props;
+        const { name, isClass, isBasic, isRN } = this.props;
 
         const componentName = toCamelCase(name);
 
